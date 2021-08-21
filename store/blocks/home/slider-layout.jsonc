@@ -1,0 +1,100 @@
+{
+
+  "slider-layout#home": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6"
+    ],
+    "props": {
+      "autoplay": {
+        "hight": 800,
+        "timeout": 7000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "image#brand1":{
+    "props":{
+    "src":"https://marcas-logos.net/wp-content/uploads/2020/03/THE-TIMES-LOGO.png"
+    }
+},
+
+"image#brand2":{
+  "props":{
+  "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Time_Magazine_logo.svg/1200px-Time_Magazine_logo.svg.png"
+  }
+},
+
+"image#brand3":{
+  "props":{
+  "src":"https://img.elo7.com.br/product/zoom/2492EE0/logo-simbolo-times-de-futebol-entalhado-em-madeira-nobre-logo-times-de-futebol.jpg"
+  }
+},
+
+"image#brand4":{
+  "props":{
+  "src":"https://img.elo7.com.br/product/zoom/2492E69/logo-simbolo-times-de-futebol-entalhado-em-madeira-nobre-simbolo-entalhado.jpg"
+  }
+},
+
+"image#brand5":{
+  "props":{
+  "src":"https://img.elo7.com.br/product/original/2492F2E/logo-simbolo-times-de-futebol-entalhado-em-madeira-nobre-escudo-times-de-futebol.jpg"
+  }
+},
+
+"image#brand6":{
+  "props":{
+  "src":"https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
+  }
+},
+
+
+
+
+
+
+  "slider-layout#destaque":{
+    "children":[
+      "image#dest1",
+      "image#dest2"
+    ],
+    
+    "props":{
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {     
+      "timeout": 7000,
+      "stopOnHover": true
+    }
+  }
+},
+
+
+"image#dest1":{
+  "props":{
+    "width": "100%",
+    "height": 400,
+  "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T184642Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=c4a7861fdb94017767033cde2eaa7cdc007bdffb18f30c5bf733d2f393b061b8"
+  }
+},
+
+"image#dest2":{
+    "props":{
+      
+      "width": "100%",
+      "height": 400,
+    "src":"https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T184719Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b7087a6080b1fb7c30093edd1853434d7ac8e442a9b2c210e9deed113263a8ed"
+    }
+  }
+
+  
+}
